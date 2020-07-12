@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context=".fragments.SymptomsFragment">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/sore"/>
+
+
+
+
+            <LinearLayout
+                android:background="@drawable/button_selected"
+                android:orientation="horizontal"
+                android:layout_height="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical|end"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="SORE THROAT"
+                    android:textSize="8sp"
+                    android:paddingStart="4dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp" />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/breathlessness"/>
+
+
+            <LinearLayout
+                android:background="@drawable/button_selected"
+                android:orientation="horizontal"
+                android:layout_height="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical|end"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="BREATHLESSNESS"
+                    android:textSize="8sp"
+                    android:paddingStart="4dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/fever"/>
+
+
+            <LinearLayout
+                android:background="@drawable/button_selected"
+                android:orientation="horizontal"
+                android:layout_height="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical|end"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"
+                tools:ignore="RtlSymmetry">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingStart="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp"
+                    android:text="FEVER"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/headache"/>
+
+
+            <LinearLayout
+                android:background="@drawable/button_selected"
+                android:orientation="horizontal"
+                android:layout_height="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical|end"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingStart="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp"
+                    android:text="HEADACHE"
+                    android:textColor="@android:color/white"
+                    android:textSize="8sp"
+                    />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/diarrhea"/>
+
+
+            <LinearLayout
+                android:background="@drawable/button_selected"
+                android:orientation="horizontal"
+                android:layout_height="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical|end"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="DIARRHEA"
+                    android:textSize="10sp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingStart="4dp"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp" />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/tasteless"/>
+
+
+            <LinearLayout
+                android:background="@drawable/button_selected"
+                android:orientation="horizontal"
+                android:layout_height="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical|end"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="TASTELESS"
+                    android:textSize="10sp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingStart="4dp"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/not_smell"/>
+
+
+            <LinearLayout
+                android:background="@drawable/button_selected"
+                android:orientation="horizontal"
+                android:layout_height="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical|end"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"
+                tools:ignore="RtlSymmetry">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="NOT SMELL"
+                    android:textSize="10sp"
+                    android:paddingStart="4dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+
+            android:layout_weight="1"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/cough"/>
+
+
+            <LinearLayout
+                android:background="@drawable/button_selected"
+                android:orientation="horizontal"
+                android:layout_height="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical|end"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"
+                tools:ignore="RtlSymmetry">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="COUGH"
+                    android:textSize="10sp"
+                    android:paddingStart="4dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/weak"/>
+
+
+            <LinearLayout
+                android:background="@drawable/button_selected"
+                android:orientation="horizontal"
+                android:layout_height="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical|end"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"
+                tools:ignore="RtlSymmetry">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="WEAK"
+                    android:textSize="10sp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingStart="4dp"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|center"
+                    android:button="@drawable/checkbox_selected"
+                    android:checked="false"
+                    android:paddingTop="4dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/vomit"/>
+
+
+            <LinearLayout
+                android:background="@drawable/button_selected"
+                android:orientation="horizontal"
+                android:layout_height="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical|end"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingStart="4dp"
+                    android:paddingLeft="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp"
+                    android:text="VOMIT"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1">
+
+            <ImageView android:layout_height="0dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/runny_nose"/>
+
+
+            <LinearLayout
+                android:background="@drawable/button_selected"
+                android:orientation="horizontal"
+                android:layout_height="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical|end"
+                android:paddingEnd="4dp"
+                android:paddingRight="4dp"
+                tools:ignore="RtlSymmetry">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="RUNNY NOSE"
+                    android:textSize="10sp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingStart="4dp"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="4dp"
+                    android:paddingEnd="8dp"
+                    android:paddingRight="8dp" />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

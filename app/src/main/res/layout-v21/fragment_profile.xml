@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:paddingBottom="16dp"
+    tools:context=".fragments.ProfileFragment">
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_profile_top"
+            android:scaleX="1.1"
+            android:scaleY="1.1"
+            android:elevation="10dp"
+
+            android:backgroundTint="@color/colorPrimaryDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:elevation="10dp"
+
+            android:layout_marginTop="40dp"
+            android:background="@drawable/back_white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_view_user"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="35dp"
+        android:elevation="10dp"
+
+        android:background="@drawable/photo_user"
+        app:layout_constraintEnd_toEndOf="@+id/imageView24"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sen_bold"
+        android:text="Jack Snow"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:elevation="10dp"
+
+        app:layout_constraintEnd_toEndOf="@+id/imageView24"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toBottomOf="@+id/image_view_user" />
+
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sen_regular"
+        android:text="San Francisco, CA"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:elevation="10dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toBottomOf="@+id/textViewName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24">
+
+
+        <TextView
+            android:id="@+id/test_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   Test Result"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/sen_regular"
+            android:textSize="20sp"
+            android:alpha="0.8"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/document_result"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Contact Us"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/sen_regular"
+            android:textSize="20sp"
+            android:alpha="0.8"
+            android:layout_marginHorizontal="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:drawableStart="@drawable/user_minus"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    About Us"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/sen_regular"
+            android:textSize="20sp"
+            android:alpha="0.8"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/info"
+            />
+        <TextView
+        android:id="@+id/editProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Edit profile"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/sen_bold"
+        android:textSize="16sp"
+        android:alpha="0.8"
+        android:background="@drawable/edit_profile_shape"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
+        android:padding="8dp"
+            android:elevation="5dp"
+            android:drawableStart="@drawable/user"
+        android:drawableLeft="@drawable/user" />
+
+        <TextView
+            android:id="@+id/textViewLogOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Log Out"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/sen_regular"
+            android:textSize="20sp"
+            android:alpha="0.8"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/icon"
+            />
+
+
+    </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

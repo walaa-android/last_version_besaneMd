@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".activities.StepActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/indicator"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/colorBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textNext"
+        app:layout_constraintStart_toEndOf="@+id/textViewBack"
+        app:tabBackground="@drawable/indicator_selector"
+        app:tabGravity="center"
+        app:tabIndicatorHeight="0dp">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <TextView
+        android:id="@+id/textViewBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:fontFamily="@font/sen_regular"
+        android:text="Back"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:alpha="0.7"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/indicator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/indicator" />
+
+    <TextView
+        android:id="@+id/textNext"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/login_shape"
+        android:text="Next"
+        android:elevation="5dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/sen_regular"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/indicator"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/indicator" />
+</androidx.constraintlayout.widget.ConstraintLayout>

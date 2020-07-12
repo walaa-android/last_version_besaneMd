@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_dialog"
+    android:padding="20dp"
+    tools:context=".fragments.HealthDetailsFragment">
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#C70000"
+        android:text="Health Details"
+        android:gravity="start|center_vertical"
+        android:fontFamily="@font/sen_regular"
+        android:layout_marginBottom="24dp"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1">
+
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_height="wrap_content"
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:layout_marginEnd="16dp"
+       android:layout_marginRight="16dp">
+
+    <ImageView
+        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/sore_throat"/>
+
+
+    <LinearLayout
+        android:background="@drawable/button_selected"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical|end"
+        android:layout_weight="0.25"
+        android:paddingEnd="4dp"
+        android:paddingRight="4dp">
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:checked="true"
+        android:button="@drawable/checkbox_selected"
+       />
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp" android:layout_weight="1"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp">
+
+    <ImageView
+        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/breathlessness"/>
+
+
+    <LinearLayout
+        android:background="@drawable/button_unselected"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical|end"
+        android:layout_weight="0.25"
+        android:paddingEnd="4dp"
+        android:paddingRight="4dp">
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:checked="false"
+        android:button="@drawable/checkbox_selected"
+     />
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1">
+
+    <ImageView
+        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/fever"/>
+
+
+    <LinearLayout
+        android:background="@drawable/button_unselected"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical|end"
+        android:layout_weight="0.25"
+        android:paddingEnd="4dp"
+        android:paddingRight="4dp">
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:checked="false"
+        android:button="@drawable/checkbox_selected"
+      />
+
+</LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp">
+
+    <ImageView
+        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/headache"/>
+
+
+
+        <LinearLayout
+            android:background="@drawable/button_selected"
+            android:orientation="horizontal"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical|end"
+            android:layout_weight="0.25"
+            android:paddingEnd="4dp"
+            android:paddingRight="4dp">
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:checked="true"
+        android:button="@drawable/checkbox_selected"
+
+        />
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp">
+
+    <ImageView
+        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/diarrhea"/>
+
+
+   <LinearLayout
+       android:background="@drawable/button_unselected"
+       android:orientation="horizontal"
+       android:layout_height="0dp"
+       android:layout_width="match_parent"
+       android:gravity="center_vertical|end"
+       android:layout_weight="0.25"
+       android:paddingEnd="4dp"
+       android:paddingRight="4dp">
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:checked="false"
+        android:button="@drawable/checkbox_selected"
+       />
+
+       </LinearLayout>
+
+       </LinearLayout>
+
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="0dp"
+               android:layout_weight="1">
+
+           <ImageView
+               android:layout_height="0dp"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:src="@drawable/tasteless"/>
+
+
+           <LinearLayout
+               android:background="@drawable/button_selected"
+               android:orientation="horizontal"
+               android:layout_height="0dp"
+               android:layout_width="match_parent"
+               android:gravity="center_vertical|end"
+               android:layout_weight="0.25"
+               android:paddingEnd="4dp"
+               android:paddingRight="4dp">
+
+           <CheckBox
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:checked="true"
+               android:button="@drawable/checkbox_selected"
+               />
+
+       </LinearLayout>
+
+       </LinearLayout>
+
+       </LinearLayout>
+
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_height="0dp"
+               android:layout_width="match_parent"
+               android:layout_marginBottom="24dp"
+               android:layout_weight="1">
+
+
+         <LinearLayout
+             android:orientation="vertical"
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:layout_marginEnd="16dp"
+             android:layout_marginRight="16dp">
+
+           <ImageView
+               android:layout_height="0dp"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:src="@drawable/not_smell"/>
+
+
+
+             <LinearLayout
+                 android:background="@drawable/button_unselected"
+                 android:orientation="horizontal"
+                 android:layout_height="0dp"
+                 android:layout_width="match_parent"
+                 android:gravity="center_vertical|end"
+                 android:layout_weight="0.25"
+                 android:paddingEnd="4dp"
+                 android:paddingRight="4dp">
+
+           <CheckBox
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:checked="false"
+               android:button="@drawable/checkbox_selected"
+            />
+
+       </LinearLayout>
+
+       </LinearLayout>
+
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_marginEnd="16dp"
+               android:layout_marginRight="16dp">
+
+           <ImageView
+               android:layout_height="0dp"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:src="@drawable/cough"/>
+
+
+          <LinearLayout
+              android:background="@drawable/button_unselected"
+              android:orientation="horizontal"
+              android:layout_height="0dp"
+              android:layout_width="match_parent"
+              android:gravity="center_vertical|end"
+              android:layout_weight="0.25"
+              android:paddingEnd="4dp"
+              android:paddingRight="4dp">
+
+           <CheckBox
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:checked="false"
+               android:button="@drawable/checkbox_selected"
+              />
+
+       </LinearLayout>
+
+       </LinearLayout>
+
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="0dp"
+               android:layout_weight="1">
+
+           <ImageView android:layout_height="0dp"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:src="@drawable/weak"/>
+
+
+           <LinearLayout
+               android:background="@drawable/button_unselected"
+               android:orientation="horizontal"
+               android:layout_height="0dp"
+               android:layout_width="match_parent"
+               android:gravity="center_vertical|end"
+               android:layout_weight="0.25"
+               android:paddingEnd="4dp"
+               android:paddingRight="4dp">
+
+           <CheckBox
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:checked="false"
+               android:button="@drawable/checkbox_selected"
+              />
+
+       </LinearLayout>
+
+       </LinearLayout>
+
+       </LinearLayout>
+
+
+           <LinearLayout
+               android:orientation="horizontal"
+               android:layout_height="0dp"
+               android:layout_width="match_parent"
+               android:gravity="center_horizontal"
+               android:layout_marginBottom="24dp"
+               android:layout_weight="1"
+               android:weightSum="3">
+
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="0dp"
+               android:layout_weight="1"
+               android:layout_marginEnd="16dp"
+               android:layout_marginRight="16dp">
+
+           <ImageView android:layout_height="0dp" android:layout_width="wrap_content" android:layout_weight="1" android:src="@drawable/vomit"/>
+
+
+           <LinearLayout
+               android:background="@drawable/button_unselected"
+               android:orientation="horizontal"
+               android:layout_height="0dp"
+               android:layout_width="match_parent"
+               android:gravity="center_vertical|end"
+               android:layout_weight="0.25"
+               android:paddingEnd="4dp"
+               android:paddingRight="4dp">
+
+           <CheckBox android:layout_height="wrap_content" android:layout_width="match_parent" android:checked="false" android:button="@drawable/checkbox_selected" android:layoutDirection="rtl"/>
+
+       </LinearLayout>
+
+       </LinearLayout>
+
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_height="wrap_content"
+               android:layout_width="0dp"
+               android:layout_weight="1">
+
+           <ImageView
+               android:layout_height="0dp"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:src="@drawable/runny_nose"/>
+
+
+           <LinearLayout
+               android:background="@drawable/button_unselected"
+               android:orientation="horizontal"
+               android:layout_height="0dp"
+               android:layout_width="match_parent"
+               android:gravity="center_vertical|end"
+               android:layout_weight="0.25"
+               android:paddingEnd="4dp"
+               android:paddingRight="4dp">
+
+           <CheckBox
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:checked="false"
+               android:button="@drawable/checkbox_selected"
+            />
+
+       </LinearLayout>
+
+       </LinearLayout>
+
+       </LinearLayout>
+
+
+         <RelativeLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:layout_marginBottom="8dp">
+
+           <Button
+               android:background="#00000000"
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:textSize="17sp"
+               android:textColor="#88000000"
+               android:text="Back"
+               android:fontFamily="@font/sen_regular"/>
+
+           <Button
+               android:background="@drawable/gender_selector"
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:textSize="16sp"
+               android:textColor="@android:color/white"
+               android:text="Next"
+               android:fontFamily="@font/sen_regular"
+               android:layout_alignParentEnd="true"
+               android:paddingHorizontal="32dp"
+               android:layout_alignParentRight="true" />
+
+       </RelativeLayout>
+       </LinearLayout>
