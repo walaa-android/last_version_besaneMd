@@ -14,9 +14,7 @@ public class TestResultActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_result);
     }
-
     public void back(View view) {
-
         onBackPressed();
     }
 }

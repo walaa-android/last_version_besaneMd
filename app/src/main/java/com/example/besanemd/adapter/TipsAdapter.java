@@ -21,9 +21,6 @@ public class TipsAdapter extends FragmentPagerAdapter {
         myContext = context;
         this.totalTabs = totalTabs;
     }
-
-
-
     @NonNull
     @Override
     public Fragment getItem(int position) {

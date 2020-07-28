@@ -13,15 +13,10 @@ public class ChooseTestResultActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choose_test_result);
     }
-
-
-
-
     public void nextToChooseResult(View view) {
         Intent intent = new Intent(ChooseTestResultActivity.this , HomeActivity.class);
         startActivity(intent);
     }
-
     public void back(View view) {
         onBackPressed();
     }
