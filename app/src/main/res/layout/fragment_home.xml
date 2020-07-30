@@ -31,7 +31,6 @@
             android:layout_width="0dp"
             android:layout_height="313dp"
             android:elevation="10dp"
-            android:background="@drawable/shape_profile"
             android:src="@color/colorPrimaryDark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
