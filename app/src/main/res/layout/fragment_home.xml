@@ -25,16 +25,32 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+
         <ImageView
             android:id="@+id/imageView20"
             android:layout_width="0dp"
             android:layout_height="313dp"
             android:elevation="10dp"
             android:background="@drawable/shape_profile"
-            android:backgroundTint="@color/colorPrimaryDark"
+            android:src="@color/colorPrimaryDark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/sen_regular"
+            android:elevation="10dp"
+            android:text="Rest On The End Of The House Stone"
+            android:textColor="@android:color/white"
+            android:textColorHighlight="@color/colorRed"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView21" />
 
         <ImageView
             android:id="@+id/imageView21"
@@ -52,8 +68,9 @@
             android:id="@+id/imageViewCorona"
             android:layout_width="50dp"
             android:layout_height="20dp"
-            android:scaleX="6"
+            android:scaleX="3"
             android:scaleY="6"
+            android:elevation="10dp"
             android:background="@drawable/corona_v"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageView22"
@@ -85,6 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:text="Jack Snow"
+            android:elevation="10dp"
             app:layout_constraintEnd_toEndOf="@+id/imageView23"
             app:layout_constraintStart_toStartOf="@+id/imageView23"
             app:layout_constraintTop_toBottomOf="@+id/imageView23" />
