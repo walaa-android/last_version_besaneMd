@@ -14,6 +14,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
       >
+
+
+        <include
+            layout="@layout/helpline_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20" />
         <ImageView
             android:id="@+id/imageView20"
             android:layout_width="0dp"
@@ -38,6 +49,16 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
+            android:id="@+id/imageViewCorona"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:scaleX="6"
+            android:scaleY="6"
+            android:background="@drawable/corona_v"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView22"
+            app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
             android:id="@+id/imageView22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -49,8 +70,8 @@
 
         <ImageView
             android:id="@+id/imageView23"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:src="@drawable/ic_user_profile"
             android:elevation="10dp"
             app:layout_constraintBottom_toBottomOf="@+id/imageView21"
@@ -67,5 +88,10 @@
             app:layout_constraintEnd_toEndOf="@+id/imageView23"
             app:layout_constraintStart_toStartOf="@+id/imageView23"
             app:layout_constraintTop_toBottomOf="@+id/imageView23" />
+
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 </androidx.core.widget.NestedScrollView>

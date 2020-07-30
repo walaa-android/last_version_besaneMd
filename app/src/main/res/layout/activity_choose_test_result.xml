@@ -45,6 +45,7 @@
 
 
             <ImageView
+                android:id="@+id/result_one"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
                 android:elevation="10dp"
@@ -52,6 +53,18 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/shape_circle"
+                android:layout_alignBottom="@+id/result_one"
+                />
+
 
         </RelativeLayout>
 
@@ -62,6 +75,7 @@
 
 
             <ImageView
+                android:id="@+id/result_two"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
                 android:elevation="10dp"
@@ -69,6 +83,17 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/shape_circle_unselected"
+                android:layout_alignBottom="@+id/result_two"
+                />
+
 
         </RelativeLayout>
 
@@ -90,6 +115,7 @@
 
 
             <ImageView
+                android:id="@+id/result_three"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
                 android:elevation="10dp"
@@ -97,6 +123,16 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/shape_circle_unselected"
+                android:layout_alignBottom="@+id/result_three"
+                />
 
         </RelativeLayout>
 
@@ -107,6 +143,7 @@
 
 
             <ImageView
+                android:id="@+id/result_four"
                 android:layout_width="wrap_content"
                 android:layout_height="200dp"
                 android:elevation="10dp"
@@ -114,6 +151,16 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:background="@drawable/shape_circle_unselected"
+                android:layout_alignBottom="@+id/result_four"
+                />
 
         </RelativeLayout>
 
