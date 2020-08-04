@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:padding="16dp"
+    android:background="@drawable/background_dialog"
+    >
+
+    <ImageView
+        android:id="@+id/close_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/ic_close"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="start"
+        android:elevation="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="The result is not currently available \n "
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:fontFamily="@font/sen_bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>
