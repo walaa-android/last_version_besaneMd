@@ -17,6 +17,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.besanemd.R;
+import com.example.besanemd.activities.AboutUsActivity;
+import com.example.besanemd.activities.ContactUsActivity;
 import com.example.besanemd.activities.EditProfileActivity;
 import com.example.besanemd.activities.SplashActivity;
 import com.example.besanemd.activities.TestResultActivity;
@@ -28,7 +30,7 @@ import com.example.besanemd.activities.TestResultActivity;
  */
 public class ProfileFragment extends Fragment {
     ImageView imageViewBack ;
-    TextView editProfile , textViewLogOut ,  test_result ;
+    TextView editProfile , textViewLogOut ,  test_result  , textViewAboutUs , textViewContactUs;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -76,6 +78,22 @@ public class ProfileFragment extends Fragment {
         // Inflate the layout for this fragment
        View v =inflater.inflate(R.layout.fragment_profile, container, false);
         imageViewBack = v.findViewById(R.id.imageViewBack);
+        textViewAboutUs= v.findViewById(R.id.textViewAboutUs);
+        textViewContactUs=v.findViewById(R.id.textViewContactUs);
+        textViewContactUs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent contactUsIntent = new Intent (getContext() , ContactUsActivity.class);
+                startActivity(contactUsIntent);
+            }
+        });
+        textViewAboutUs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+           Intent aboutUsIntent = new Intent (getContext() , AboutUsActivity.class);
+              startActivity(aboutUsIntent);
+            }
+        });
         textViewLogOut=v.findViewById(R.id.textViewLogOut);
         test_result= v.findViewById(R.id.test_result);
         test_result.setOnClickListener(new View.OnClickListener() {

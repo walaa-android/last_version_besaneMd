@@ -52,13 +52,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginBottom="16dp"
         >
         <TextView
             android:id="@+id/text_view_confirm"
             android:layout_width="0dp"
-            android:layout_height="30dp"
+            android:layout_height="wrap_content"
             android:text="CONFIRM"
             android:gravity="center"
+            android:padding="8dp"
             android:background="@drawable/gender_selected"
             android:textColor="@android:color/white"
             android:textSize="14sp"
@@ -72,9 +74,10 @@
         <TextView
             android:id="@+id/text_view_cancel"
             android:layout_width="0dp"
-            android:layout_height="30dp"
+            android:layout_height="wrap_content"
             android:text="CANCEL"
             android:gravity="center"
+            android:padding="8dp"
             android:background="@drawable/gender_shape_unselected"
             android:textColor="@android:color/black"
             android:textSize="14sp"

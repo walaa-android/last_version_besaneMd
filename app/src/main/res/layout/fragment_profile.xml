@@ -106,6 +106,7 @@
             android:drawableLeft="@drawable/document_result" />
 
         <TextView
+            android:id="@+id/textViewContactUs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="    Contact Us"
@@ -118,19 +119,22 @@
             android:layout_marginBottom="16dp"
             android:drawableStart="@drawable/user_minus"
             android:drawableLeft="@drawable/user_minus" />
+
         <TextView
+            android:id="@+id/textViewAboutUs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="    About Us"
-            android:textColor="@color/colorBlack"
-            android:fontFamily="@font/sen_regular"
-            android:textSize="20sp"
-            android:alpha="0.8"
+            android:layout_gravity="center"
             android:layout_marginHorizontal="100dp"
             android:layout_marginBottom="16dp"
-            android:layout_gravity="center"
+            android:alpha="0.8"
             android:drawableStart="@drawable/info"
-            android:drawableLeft="@drawable/info" />
+            android:drawableLeft="@drawable/info"
+            android:fontFamily="@font/sen_regular"
+            android:text="    About Us"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+
         <TextView
             android:id="@+id/editProfile"
             android:layout_width="match_parent"

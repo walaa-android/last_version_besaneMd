@@ -107,6 +107,7 @@
             />
 
         <TextView
+            android:id="@+id/textViewContactUs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="    Contact Us"
@@ -120,6 +121,7 @@
             android:drawableStart="@drawable/user_minus"
             />
         <TextView
+            android:id="@+id/textViewAboutUs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="    About Us"
